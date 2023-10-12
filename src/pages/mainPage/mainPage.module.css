@@ -1,0 +1,23 @@
+.wrapper {
+    height: 1080px;
+    background-image: url('https://i.pinimg.com/originals/36/51/6f/36516f965aab71e9cce554f79e1da8dd.jpg');
+    color: white;
+    font-size: 50px;
+}
+
+.text {
+    padding-top: 200px;
+}
+
+.buttonCatalog {
+    margin-top: 200px;
+    background-color: #3470FF;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+    width: 274px;
+    height: 44px;
+}
