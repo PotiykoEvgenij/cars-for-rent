@@ -1,6 +1,6 @@
 // import "./App.css";
 import { Routes, Route } from "react-router-dom";
-import Favorite from "../pages/favoritePage/favoritePage";
+import Favorite from "../pages/favoritePage/FavoritePage";
 import MainPage from "../pages/mainPage/mainPage";
 import Cars from "../pages/Cars/Cars";
 import SharedLayout from "./SharedLayout/SharedLayout";
