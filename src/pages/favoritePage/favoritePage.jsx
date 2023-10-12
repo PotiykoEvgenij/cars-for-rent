@@ -1,5 +1,6 @@
 import React from "react";
 // import { NavLink, Outlet } from "react-router-dom";
+import CarsCard from "../../components/carsCard/CarsCard";
 
 export default function Favorite() {
     return (
@@ -7,6 +8,7 @@ export default function Favorite() {
             <div>
                 Favorite
             </div>
+            <CarsCard />
         </div>
     );
 };
