@@ -3,6 +3,7 @@
     text-decoration: none;
     display: flex;
     justify-content: space-around;
+    border-radius: 12px;
 }
 
 .NavLink {
