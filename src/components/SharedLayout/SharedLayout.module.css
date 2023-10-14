@@ -1,5 +1,7 @@
 .SharedLayout {
-    background-color: #3470FF;
+    background: linear-gradient(to bottom,
+    #0B44CD,
+        #3470FF);
     text-decoration: none;
     display: flex;
     justify-content: space-around;
