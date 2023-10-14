@@ -1,7 +1,19 @@
 .cards {
     list-style: none;
     padding: 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 .cardWrepper {
     list-style: none;
+    width: 250px;
+}
+
+.imgWrapper {
+    width: 250px;
+    height: 150px;
+}
+
+.imgCar {
+    width:250;
 }
