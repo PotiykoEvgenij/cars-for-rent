@@ -4,11 +4,11 @@
     display: flex;
     flex-wrap: wrap;
 }
-.cardWrepper {
+.cardWrapper {
     list-style: none;
     width: 250px;
     align-items: center;
-    margin: 10px;
+    margin: 20px;
 }
 
 .imgWrapper {
