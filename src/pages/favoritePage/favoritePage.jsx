@@ -8,6 +8,7 @@ export default function Favorite() {
             <div>
                 Favorite
             </div>
+            
             <CarsCard />
         </div>
     );
