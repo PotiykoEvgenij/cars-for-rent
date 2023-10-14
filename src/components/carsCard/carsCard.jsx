@@ -10,7 +10,7 @@ export default function CarsCard({cars}) {
                     <h4>{car.model}</h4>
                     <h5>{car.type}</h5>
                     <div className={styles.imgWrapper}>
-                        <img src={car.img} alt={car.make} width="250px" />
+                        <img src={car.img} alt={car.make} height="274"/>
                     </div>
                 </li>
             ))}

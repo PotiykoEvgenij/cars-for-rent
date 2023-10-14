@@ -7,13 +7,17 @@
 .cardWrepper {
     list-style: none;
     width: 250px;
+    align-items: center;
+    margin: 10px;
 }
 
 .imgWrapper {
-    width: 250px;
-    height: 150px;
+    width: 268px;
+    height: 274px;
+    overflow: hidden;
 }
 
 .imgCar {
-    width:250;
+    width: auto;
+    height: 274px;
 }
