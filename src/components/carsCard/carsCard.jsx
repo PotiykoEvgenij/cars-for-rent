@@ -1,10 +1,11 @@
 import React from "react";
+import styles from "./CarsCard.module.css";
 
 export default function CarsCard({cars}) {
     return (
-        <ul>
+        <ul className={styles.cards}>
             {cars.map((car) => (
-                <li>
+                <li  className={styles.cardWrapper}>
                     <h3>{car.make}</h3>
                     <h4>{car.model}</h4>
                     <h5>{car.type}</h5>
