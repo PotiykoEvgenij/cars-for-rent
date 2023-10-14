@@ -1,13 +1,16 @@
 import React from "react";
 
-export default function CarsCard() {
+export default function CarsCard({cars}) {
     return (
         <ul>
-            <li>Car1</li>
-            <li>Car2</li>
-            <li>Car3</li>
-            <li>Car4</li>
-            <li>Car5</li>
+            {cars.map((car) => (
+                <li>
+                    <h3>{car.make}</h3>
+                    <h4>{car.model}</h4>
+                    <h5>{car.type}</h5>
+                    <img src={car.img} alt={car.make} width="250px"/>
+                </li>
+            ))}
         </ul>
     );
 };
