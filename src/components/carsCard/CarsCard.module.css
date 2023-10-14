@@ -15,9 +15,12 @@
     width: 268px;
     height: 274px;
     overflow: hidden;
+    border-radius: 14px;
 }
 
-.imgCar {
+/* .imgCar {
+    display: block;
     width: auto;
     height: 274px;
-}
+    object-fit: cover;
+} */
